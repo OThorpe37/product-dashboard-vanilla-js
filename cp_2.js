@@ -46,3 +46,6 @@ function displayProducts(products) {
 function handleError(error) {
     console.error(`An error has occurred: ${error.message}`);
 }
+
+fetchproductsThen();
+fetchproductsAsync();
